@@ -1,0 +1,31 @@
+{
+  "name": "micro-game-tools",
+  "version": "1.0.0",
+  "description": "My personal tools",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "uglify": "./node_modules/.bin/uglifyjs src/*.js src/**/*.js --mangle-props -o build/min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andru255/micro-web-tools.git"
+  },
+  "keywords": [
+    "micro",
+    "minimal"
+  ],
+  "author": "andru255",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andru255/micro-web-tools/issues"
+  },
+  "homepage": "https://github.com/andru255/micro-web-tools#readme",
+  "devDependencies": {
+    "uglify-js": "^3.0.27",
+    "uglifyjs": "^2.4.11"
+  }
+}
